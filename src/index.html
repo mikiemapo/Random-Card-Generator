@@ -13,16 +13,18 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="d-flex justify-content-center  container-fluid text-center">
+      <!-- <div class='card heart'></div> -->
+      <div class="cards">
+        <div
+          id="suitTop"
+          class="icon-size suit-color d-flex justify-content-left cardDivHeight topleft mt-1 ms-3"
+        ></div>
+        <div id="midFace" class="icon-size mid cardDivHeight"></div>
+        <div
+          id="suitBot"
+          class="icon-size suit-color d-flex justify-content-end align-items-end cardDivHeight bottomRight mb-5 me-3 "
+        ></div>
       </div>
     </div>
   </body>

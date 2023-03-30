@@ -1,1 +1,18 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.cards {
+  margin-top: 80px;
+  background-color: white;
+  height: 300px;
+  width: 200px;
+}
+.cardDivHeight {
+  height: 33%;
+}
+
+.icon-size {
+  font-size: xxx-large;
+}
